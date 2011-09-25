@@ -21,7 +21,7 @@
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
+  <project path="dalvik" name="BobZhome/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/huawei/ascend" name="BobZhome/android_device_huawei_ascend" />
@@ -205,7 +205,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <project path="system/bluetooth" name="BobZhome/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
