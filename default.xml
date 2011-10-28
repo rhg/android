@@ -25,6 +25,7 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/huawei/ascend" name="BobZhome/android_device_huawei_ascend" />
+  <project path="device/lge/slider" name="BobZhome/android_device_lge_slider" />
   <project path="device/lge/thunderc" name="BobZhome/android_device_lge_thunderc" />
   <project path="vendor/lge/thunderc" name="BobZhome/vendor_lge_thunderc" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
