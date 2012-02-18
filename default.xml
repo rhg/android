@@ -15,7 +15,7 @@
            remote="github"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="android_build"  remote="chaos" revision="ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -148,7 +148,7 @@
   <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/svox" name="CyanogenMod/android_external_svox" />
+  <project path="external/svox" name="android_external_svox" remote="chaos" revision="ics" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
