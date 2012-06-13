@@ -11,6 +11,9 @@
   <remote  name="chaos" 
            fetch="git://github.com/BobZhome" />
 
+  <remote  name="rhg"
+	   fetch="git://github.com/rhg" />
+
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
@@ -26,13 +29,8 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="device/lge/thunderc" name="android_device_lge_thunderc" remote="chaos" revision="ics" />
-  <project path="vendor/lge/thunderc" name="vendor_lge_thunderc" remote="chaos" revision="ics" />
-  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
+  <project path="device/lge/gelato" name="android_device_lge_gelato" remote="rhg" revision="ics" />
+  <project path="vendor/lge/gelato" name="vendor_lge_gelato" remote="rhg" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
